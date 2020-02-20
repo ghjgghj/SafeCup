@@ -18,9 +18,10 @@ import requests
 TARGET_UPDATE = 50
 
 # post request
+# app_key and app_secret have been removed for privacy 
 payload = {
-  "app_key": "FLTP9vbts14XbLvnX4i5",
-  "app_secret": "s0iFiufY3pNdN0OcxatxenQFp5USOXKyqxMjHmgseg0uLsofycwB0w9TZbYmR9Lp",
+  "app_key": "",
+  "app_secret": "",
   "target_type": "app",
   "content": "Someone might have tampered with your drink! "
 }
